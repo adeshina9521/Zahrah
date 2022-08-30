@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export default function SignUp(){
+export default function SignIn(){
     return(
         <div className="sig-fm">
         <form className="signup">
@@ -45,7 +45,7 @@ export default function SignUp(){
                         name="isNewUser"
                         className="ag-input" 
                     />
-                    <p>I agree that all informaton is correct. Already register <a href="/">sign in</a></p>
+                    <p>I agree that all informaton is correct. Already register <a href="#">sign in</a></p>
                 </div>
                 <br/>
                 <button>Sign Up</button>
