@@ -6,18 +6,8 @@ export default function SignIn(){
         <div className="sig-fm">
         <form className="signup">
            <div className="sgn-bg">
-                <h1 className="sgn-hd">Sign Up</h1>
-                <input 
-                    id="username"
-                    type="text" 
-                    name="Username" 
-                    className="sgn-input"
-                    placeholder="Enter Username"
-                />
-                <br/>
-                <label htmlFor="username">Username</label>
-                <br/>
-                <input 
+                <h1 className="sgn-hd">Sign in</h1>
+                    <input 
                     id="email"
                     type="email" 
                     name="email" 
@@ -45,10 +35,9 @@ export default function SignIn(){
                         name="isNewUser"
                         className="ag-input" 
                     />
-                    <p>I agree that all informaton is correct. Already register <a href="#">sign in</a></p>
                 </div>
                 <br/>
-                <button>Sign Up</button>
+                <button>Sign In</button>
             </div>
         </form>
         </div>
