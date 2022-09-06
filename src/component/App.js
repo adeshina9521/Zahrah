@@ -4,12 +4,13 @@ import React from "react"
 // import { Route } from "react-router-dom"
 import Header from "./Header"
 // import Homepage from "./Homepage"
+import Menu from "./Menu"
 export default function App(){
     return(
         <>
             <Header/>
             {/* <Homepage/> */}
-
+            <Menu/>
         </>
 
     )
