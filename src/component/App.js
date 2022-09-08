@@ -3,14 +3,14 @@ import React from "react"
 // import SignIn from "./SignIn"
 // import { Route } from "react-router-dom"
 import Header from "./Header"
-// import Homepage from "./Homepage"
-import Menu from "./Menu"
+import Homepage from "./Homepage"
+// import Menu from "./Menu"
 export default function App(){
     return(
         <>
             <Header/>
-            {/* <Homepage/> */}
-            <Menu/>
+            <Homepage/>
+           
         </>
 
     )

@@ -56,19 +56,16 @@ export default function Header(){
                     <h1 className="brand_name">Zahrah Muslimah Hub </h1>
                 </div>
                 <div className="menu">
-                    {screenWidth > 420? menu : <img className="menu-lg" src={`../images/${menuIcon}`} alt="menu" onClick={menuClick}></img>}
+                    {screenWidth > 500? menu : <img className="menu-lg" src={`../images/${menuIcon}`} alt="menu" onClick={menuClick}></img>}
                      
                 </div>
                 
             </nav>
-            <div className="col">
-                        {/* <div className="col2"></div> */}
-                        <div className="menu-mobile">
-                                    {!myMenu.isShown? mobileMenu  : <p style={style}></p>}
-                                
-                        </div>
+            <div className="menu-mobile">
+                {!myMenu.isShown? mobileMenu  : <p style={style}></p>}
+             </div>
                         
-            </div>
+           
            
            <h2>hiee{window.innerWidth}</h2>
         </div>
