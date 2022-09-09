@@ -67,7 +67,7 @@ export default function Header(){
                         
            
            
-           <h2>hiee{window.innerWidth}</h2>
+           {/* <h2>hiee{window.innerWidth}</h2> */}
         </div>
     )
 }
