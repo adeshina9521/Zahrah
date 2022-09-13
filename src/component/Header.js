@@ -1,4 +1,5 @@
 import React from "react"
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min"
 
 
 export default function Header(){
@@ -13,9 +14,10 @@ export default function Header(){
     const menu = myMenu.menu.map(
         function menu(menu){
             return (
-                <ul className="menu-dsk">
+                <ul key={menu} className="menu-dsk">
                     <ol className="menu-lst">
-                        {menu}
+                        <NavLink exact to="/"> {menu}</NavLink>
+                      
                     </ol>
                 </ul>
             )
@@ -25,9 +27,9 @@ export default function Header(){
     const mobileMenu = myMenu.menu.map(
         function menu(menu){
             return (
-                <ul className="mob-dsk">
+                <ul key={menu} className="mob-dsk">
                     <ol className="mob-lst ">
-                        {menu}
+                    <NavLink> {menu}</NavLink>
                     </ol><br/>
                 </ul>
             )
