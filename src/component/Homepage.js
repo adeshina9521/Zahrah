@@ -1,12 +1,11 @@
 import React from "react";
-import {Link} from "react-router-dom"
+// import {Link} from "react-router-dom"
 
 export default function Homepage(){
 
     return(
         <>
-        <Link to="/signin">sign</Link>
-         <div className="container">
+           <div className="container">
            
              <video src="../images/clip.mp4" autoPlay={true} loop={true}></video>
              <div className="cont-1">
