@@ -1,22 +1,21 @@
 import React from "react"
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min"
 import MainHeader from "./MainHeader"
-import ProductHeader from "./ProductHeader"
+
 
 export default function Header(){
+
+   const activeStyle = {color: "white", backgroundColor: "#44007e", borderRadius: 20,  fontSize:21, paddingLeft: 5, paddingRight: 5, paddingTop: 5, paddingBottom: 5 }
+
     const [myMenu, setMyMenu] = React.useState({
         isShown: true,
-        menu : [ <NavLink to="/">Home</NavLink>, <NavLink to="/product">Product</NavLink>, <NavLink to="/about">About</NavLink>, <NavLink to="/contact">Contact</NavLink>],
+        menu : [ <NavLink  to="/">Home</NavLink>, <NavLink activeStyle={activeStyle} to="/product">Product</NavLink>, <NavLink activeStyle={activeStyle} to="/about">About</NavLink>, <NavLink activeStyle={activeStyle} to="/contact">Contact</NavLink>],
     })
-    const [proMenu, setProMenu] = React.useState({
-        isShown: true,
-        productMenu : [<NavLink to="/">Hijabs</NavLink>, <NavLink to="/jilbabs">Jilbabs</NavLink>, <NavLink to="/niqabs">Niqabs</NavLink>, <NavLink to="/islamicbook">islamicbooks</NavLink>, <NavLink to="/bags">Bags</NavLink>, <NavLink to="/shoes">Shoes</NavLink>, <NavLink to="/jewelries">Jewelries</NavLink>],
-    })
+   
 
     const [screenWidth, setScreenWidth] = React.useState(window.innerWidth)
     let menuIcon = myMenu.isShown? "menu_logo.png" : "menu_close_logo.png"
-    let proMenuIcon = proMenu.isShown? "menu_logo.png" : "menu_close_logo.png"
-
+  
 
     const menu = myMenu.menu.map(
         function menu(menu){
@@ -30,17 +29,7 @@ export default function Header(){
         }
     ) 
 
-    const productsMenu = proMenu.productMenu.map(
-        function productMenu(productMenu){
-            return(
-                <ul key={productMenu} className="menu-dsk">
-                    <ol className="menu-lst">
-                        {productMenu}
-                    </ol>
-                </ul>
-            )
-        }
-    )
+    
     const mobileMenu = myMenu.menu.map(
         function menu(menu){
             return (
@@ -53,18 +42,7 @@ export default function Header(){
 
         }
     ) 
-    const proMobileMenu = proMenu.productMenu.map(
-        function menu(menu){
-            return (
-                <ul key={menu} className="mob-dsk">
-                    <ol className="mob-lst ">
-                        {productsMenu}
-                    </ol><br/>
-                </ul>
-            )
-
-        }
-    ) 
+   
     function menuClick(){
         setMyMenu(function(prevState){
             return {...prevState,
@@ -74,18 +52,12 @@ export default function Header(){
     }
         )
     }
-    function proMenuClick(){
-        setProMenu(function(prevState){
-            return {...prevState,
-                    isShown: !prevState.isShown,
-                    
-                    }
-                }
-                    )
-    }
+    
 
     const style = {
         display: "none"
+      
+
     }
 
     return(
@@ -100,7 +72,7 @@ export default function Header(){
                style={style}
 
             />
-            <ProductHeader 
+            {/* <ProductHeader 
                 proMenu={proMenu}
                 productsMenu={productsMenu}
                 proMenuIcon={proMenuIcon}
@@ -108,7 +80,7 @@ export default function Header(){
                 proMenuClick={proMenuClick}
                 proMobileMenu={proMobileMenu}
                 style={style}
-            />
+            /> */}
             {/* <nav className="header">
                 <div className="header-left">
                     <img className="lg_img" src="../images/zah_logo.png" alt="company logo"></img>

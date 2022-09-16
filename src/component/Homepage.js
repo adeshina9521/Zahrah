@@ -1,10 +1,12 @@
 import React from "react";
 // import {Link} from "react-router-dom"
 
+
 export default function Homepage(){
 
     return(
         <>
+        
            <div className="container">
            
              <video src="../images/clip.mp4" autoPlay={true} loop={true}></video>

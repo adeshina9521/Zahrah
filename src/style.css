@@ -55,7 +55,7 @@ button{
     align-items: flex-start;
     /* background-color: red; */
     margin-top: 2em;
-   
+    flex-wrap: nowrap;
 }
 .ag-input{
     height: 30px;   
@@ -79,7 +79,9 @@ p{
     padding: 1rem;
 
     
-
+    box-shadow: 0 1rem 1rem rgba(142, 54, 194, 0.295);
+    
+ 
 }
 
 .header-left{
@@ -102,7 +104,7 @@ p{
 .menu{
     align-content: flex-end;
 }
-.menu-lg{
+.menu-lg, .menu-sm{
     width: 3rem;
     cursor: pointer;
 }
@@ -114,6 +116,7 @@ main{
 }
 .menu-dsk{
     display: inline-flex;
+
 
     
 }
@@ -137,6 +140,9 @@ a{
     .brand_name{
         font-size: 1.5em;
     }
+    /* .menu-sm{
+        display: none;
+    } */
   }
 
 
@@ -156,45 +162,47 @@ a{
     
 }
 .menu-lst:hover{
-    background-color: #44007E;
+    background-color: #44007e;
     color: #f1e7e7;
     border-radius: 20px;
     padding-left: 5px;
     padding-right: 5px;
+    height: 2em;
 }
 a:hover{
     color: #fff;
 }
-a:active{
-    background-color: #44007E;
-    color: #f1e7e7;
 
-}
 .menu-mobile{
     display: flex;
     background-color: #f1e7e7;
     text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
     font-size: .8em;
+    box-shadow: 0 1rem 1rem rgba(142, 54, 194, 0.295);
    
-    gap: space-between;
-    box-shadow: red;
+    /* height: 60px; */
+    
   
 
 }
 .mob-dsk{
-    border-top: solid 2px red;
-    padding: 1em;
+   
+    padding: .5em;
     background-color: #f1e7e7;
     
     
   
 }
-
+.mob-lst{
+    height: 20px;
+}
  .mob-lst:hover{
-    background-color: #44007E;
-    color: #f1e7e7;
+    /* background-color: #44007E; */
+    color: red;
     border-radius: 10px;
+    height: 2em;
 
 }
 /* HomePage */
