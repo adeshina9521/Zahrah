@@ -14,8 +14,11 @@ export default function ProductHeader(props){
                     <h1 className="brand_name">Zahrah Muslimah Hub </h1> */}
                 </div>
                 <div className="menu">
-                    {/* {props.screenWidth < 600? props.productsMenu : <img className="menu-sm" src={`../images/${props.proMenuIcon}`} alt="menu" onClick={props.proMenuClick}></img>} */}
-                    {props.productsMenu} 
+               
+                        {/* {props.screenWidth < 600? props.productsMenu : <img className="menu-sm" src={`../images/${props.proMenuIcon}`} alt="menu" onClick={props.proMenuClick}></img>} */}
+                        {props.productsMenu} 
+                    
+                    
                 </div>
                 
             </nav>

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom/cjs/react-router-dom.min"
 import ProductHeader from "./ProductHeader"
 
 export default function Product(){
-    const activeStyle = {color: "white", backgroundColor: "#44007e", borderRadius: 20,  fontSize: 18, paddingLeft: 5, paddingRight: 5, paddingTop: 5, paddingBottom: 5 }
+    const activeStyle = {color: "white", backgroundColor: "#44007e", borderRadius: 20,  fontSize: 18, paddingLeft: 3, paddingRight: 3, paddingTop: 3, paddingBottom: 3 }
    
     const [proMenu, setProMenu] = React.useState({
         isShown: true,

@@ -5,7 +5,7 @@ import MainHeader from "./MainHeader"
 
 export default function Header(){
 
-   const activeStyle = {color: "white", backgroundColor: "#44007e", borderRadius: 20,  fontSize:21, paddingLeft: 5, paddingRight: 5, paddingTop: 5, paddingBottom: 5 }
+   const activeStyle = {color: "white", backgroundColor: "#44007e", borderRadius: 20,  fontSize:20, paddingLeft: 5, paddingRight: 5, paddingTop: 5, paddingBottom: 5 }
 
     const [myMenu, setMyMenu] = React.useState({
         isShown: true,
