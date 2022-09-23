@@ -326,36 +326,56 @@ video, .hom-img{
 } */
 /* card */
 .main_card{
+    position: relative;
+    margin-top: 1em;
     /* text-align: center; */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-content: center; */
     /* position: absolute; */
     /* top: 50%;
     bottom: 50%;
     transform: translate(-50%, -50%); */
+    awborder: 3px solid black;
+
 }
 
 .card{
 
-    margin-top: 1em;
+    margin-top: 20em;
     background-color: #f1e7e7;
+    
     /* padding: .25rem; */
     width: 80%;
     box-shadow: 0 1rem 1rem rgba(142, 54, 194, 0.295);
     border: 1px solid #44007E;
-    text-align: center;
-    /* background-color: red;  */
+    /* text-align: center; */
     position: relative;
+    /* background-color: red; 
+    position: absolute; 
+    top: 0%;
+    bottom: 0%;
+    transform: translate(10%, 0%);  */
+    margin: 0 auto;
 }
+
 .hij_img{
   
     height: 70%;
     width: 90%;    
 }
 .trans{
-    color:red;
-    border: 2px solid black;
-    padding: 1rem;
+    /* color:red; */
+    border: 2px solid #44007E;
+    /* padding: .5rem; */
+    width: 70px;
+    height: 30px;
+    background-color: transparent;
+    text-align: center;
+    position: absolute;
+    top:5%;
+    left: 5%;
+    color: #44007E;
+    
 }
