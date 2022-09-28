@@ -7,7 +7,7 @@ import Header from "./Header"
 // import Product from "./Product"
 // import About from "./About"
 // import Contact from "./Contact"
-import Card from "./Card"
+import Cards from "./Cards"
 
 
 export default function App(){
@@ -16,7 +16,7 @@ export default function App(){
 
         <>
            <Header/>
-           <Card/>
+           <Cards/>
            {/* <Switch>
                 <Route path="/" exact component={Homepage}/>
                 <Route path="/product" exact component={Product} />

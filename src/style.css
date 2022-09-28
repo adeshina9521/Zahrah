@@ -201,12 +201,15 @@ a{
    
 }
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 600px) {
     .hom-img {
         display: none;
 
     }
-    
+    .card{
+        position: absolute;
+        width: 12vw;
+    }
   }
 
 .menu-lst{
@@ -325,33 +328,44 @@ video, .hom-img{
     color: green
 } */
 /* card */
+.maincard{
+    margin-top: 1em;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f1e7e7;
+}
 .main_card{
     position: relative;
-    margin-top: 1em;
+    /* margin-top: 1em; */
+    padding: 1.5em;
+   
     /* text-align: center; */
     /* display: flex;
-    flex-direction: column;
     justify-content: center;
     align-content: center; */
     /* position: absolute; */
     /* top: 50%;
     bottom: 50%;
     transform: translate(-50%, -50%); */
-    awborder: 3px solid black;
+    /* border: 3px solid black; */
 
 }
 
 .card{
 
     margin-top: 20em;
-    background-color: #f1e7e7;
+    background-color: #cca6d8;
     
     /* padding: .25rem; */
-    width: 80%;
+    
     box-shadow: 0 1rem 1rem rgba(142, 54, 194, 0.295);
     border: 1px solid #44007E;
     /* text-align: center; */
     position: relative;
+    width: 250px;
+    /* background-color: red; */
     /* background-color: red; 
     position: absolute; 
     top: 0%;
@@ -363,19 +377,42 @@ video, .hom-img{
 .hij_img{
   
     height: 70%;
-    width: 90%;    
+    width: 100%;    
 }
 .trans{
     /* color:red; */
     border: 2px solid #44007E;
-    /* padding: .5rem; */
+    padding: .2rem;
     width: 70px;
     height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: transparent;
     text-align: center;
     position: absolute;
     top:5%;
     left: 5%;
     color: #44007E;
+    font-size: 1.1rem;
+    
+}
+.sub_card{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    /* padding: .5em; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* background-color: blue; */
+}
+.details{
+    color :#44007E ;
+    padding: .3em;
+    margin: .3em;
+    font-size: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    border: 2px solid #44007E;
     
 }

@@ -1,10 +1,10 @@
 export default [
     {
         "id": 1,
-        "name": "",
+        "style": "",
         "image": "./images/zah_logo.png",
         "price": "" ,
         "color": "blue",
-        "size": 2 
+        "Sleeve": 2 
     }
 ]
