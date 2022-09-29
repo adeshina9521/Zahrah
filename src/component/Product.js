@@ -1,13 +1,14 @@
 import React from "react"
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min"
 import ProductHeader from "./ProductHeader"
+import Cards from "./Cards"
 
 export default function Product(){
     const activeStyle = {color: "white", backgroundColor: "#44007e", borderRadius: 20,  fontSize: 18, paddingLeft: 3, paddingRight: 3, paddingTop: 3, paddingBottom: 3 }
    
     const [proMenu, setProMenu] = React.useState({
         isShown: true,
-        productMenu : [<NavLink activeStyle={activeStyle} to="/">Hijabs</NavLink>, <NavLink activeStyle={activeStyle} to="/jilbabs">Jilbabs</NavLink>, <NavLink activeStyle={activeStyle} to="/niqabs">Niqabs</NavLink>, <NavLink activeStyle={activeStyle} to="/islamicbook">Islamic Books</NavLink>, <NavLink activeStyle={activeStyle} to="/bags">Bags</NavLink>, <NavLink activeStyle={activeStyle} to="/shoes">Shoes</NavLink>, <NavLink activeStyle={activeStyle} to="/jewelries">Jewelries</NavLink>],
+        productMenu : [<NavLink activeStyle={activeStyle} to="/hijab">Hijabs</NavLink>, <NavLink activeStyle={activeStyle} to="/jilbabs">Jilbabs</NavLink>, <NavLink activeStyle={activeStyle} to="/niqabs">Niqabs</NavLink>, <NavLink activeStyle={activeStyle} to="/islamicbook">Islamic Books</NavLink>, <NavLink activeStyle={activeStyle} to="/bags">Bags</NavLink>, <NavLink activeStyle={activeStyle} to="/shoes">Shoes</NavLink>, <NavLink activeStyle={activeStyle} to="/jewelries">Jewelries</NavLink>],
     })
 
     const [screenWidth, setScreenWidth] = React.useState(window.innerWidth)
@@ -66,6 +67,7 @@ export default function Product(){
                 proMobileMenu={proMobileMenu}
                 style={style}
             /> 
+            <Cards/>
             {/* <nav className="header">
                 <div className="header-left">
                     <img className="lg_img" src="../images/zah_logo.png" alt="company logo"></img>

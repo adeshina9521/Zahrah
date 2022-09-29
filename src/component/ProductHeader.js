@@ -1,5 +1,5 @@
 import React from "react"
-import Homepage from "./Homepage"
+// import  from "./Homepage"
 // import { NavLink } from "react-router-dom/cjs/react-router-dom.min"
 
 
@@ -26,7 +26,7 @@ export default function ProductHeader(props){
                 {!props.proMenu.isShown? props.proMobileMenu  : <p style={props.style}></p>}
              </div>
                         
-        <Homepage/>  
+       
            
            {/* <h2>hiee{window.innerWidth}</h2> */}
         </div>
