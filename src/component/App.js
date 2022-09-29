@@ -8,15 +8,17 @@ import Header from "./Header"
 // import About from "./About"
 // import Contact from "./Contact"
 import Cards from "./Cards"
-
+import Card from "./Card"
 
 export default function App(){
     
     return (
 
         <>
-           <Header/>
-           <Cards/>
+            <Header/>
+            <Cards/>
+
+           
            {/* <Switch>
                 <Route path="/" exact component={Homepage}/>
                 <Route path="/product" exact component={Product} />
