@@ -345,8 +345,8 @@ video, .hom-img{
 .main_card{
     /* position: relative; */
     /* margin-top: 1em; */
-    padding: 1em;
-   
+    padding: 2em;
+    
     /* text-align: center; */
     /* display: flex;
     justify-content: center;
@@ -371,6 +371,7 @@ video, .hom-img{
     /* text-align: center; */
     position: relative;
     width: 250px;
+    height: 500px;
     /* background-color: red; */
     /* background-color: red; 
     position: absolute; 

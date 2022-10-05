@@ -9,7 +9,7 @@ export default function Header(){
 
     const [myMenu, setMyMenu] = React.useState({
         isShown: true,
-        menu : [ <NavLink  to="/">Home</NavLink>, <NavLink activeStyle={activeStyle} to="/product">Product</NavLink>, <NavLink activeStyle={activeStyle} to="/about">About</NavLink>, <NavLink activeStyle={activeStyle} to="/contact">Contact</NavLink>],
+        menu : [ <NavLink  to="/">Home</NavLink>, <NavLink activeStyle={activeStyle} to="/products">Products</NavLink>, <NavLink activeStyle={activeStyle} to="/about">About</NavLink>, <NavLink activeStyle={activeStyle} to="/contact">Contact</NavLink>],
     })
    
 

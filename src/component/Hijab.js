@@ -1,9 +1,10 @@
 import React from "react";
 import Card from "./Card";
-import HijabData from "../component/Product/HijabData"
+import HijabData from "./Product/HijabData"
+import Product from "./Product"
 
 
-export default function Cards(){
+export default function Hijab(){
     const hijabElement = HijabData.map(
         function hijab(info){
             return(
@@ -18,8 +19,11 @@ export default function Cards(){
         }
     )
     return(
-        <div className="cds">
-            {hijabElement}       
-        </div>
+        <>
+            <Product/>
+            <div className="cds">
+                {hijabElement}       
+            </div>
+        </>
     )
 }

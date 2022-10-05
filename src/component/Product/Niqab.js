@@ -1,9 +1,9 @@
 import React from "react"
 
-export default function Hijab(){
+export default function Niqab(){
     return(
         <>
-            <h2>Hijab</h2>
+            <h2>Niqab</h2>
         </>
     )
 }
