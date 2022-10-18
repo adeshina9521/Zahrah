@@ -8,8 +8,6 @@ import Products from "./Products"
 import About from "./About"
 import Contact from "./Contact"
 import Jilbabs from "./Jilbab"
-// import Cards from "./Cards"
-// import Card from "./Card"
 import Hijab from "./Hijab"
 import Niqab from "./Niqab"
 import Islamicbook from "./IslamicBook"
@@ -39,7 +37,6 @@ export default function App(){
                 <Route path="/shoes" exact component={Shoe} />
                 <Route path="/jewelries" exact component={Jewelries} />
     
-                {/* <Route path="/hijab" exact component={Contact} /> */}
            </Switch>
                       
         </>

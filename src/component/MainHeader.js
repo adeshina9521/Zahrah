@@ -1,5 +1,4 @@
 import React from "react"
-// import { NavLink } from "react-router-dom/cjs/react-router-dom.min"
 
 
 export default function MainHeader(props){
@@ -20,9 +19,6 @@ export default function MainHeader(props){
             <div className="menu-mobile">
                 {!props.myMenu.isShown? props.mobileMenu  : <p style={props.style}></p>}
              </div>
-                        
-           
-           
            {/* <h2>hiee{window.innerWidth}</h2> */}
         </div>
     )

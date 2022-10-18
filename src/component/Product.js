@@ -68,28 +68,7 @@ export default function Product(){
                 proMobileMenu={proMobileMenu}
                 style={style}
             /> 
-            {/* <Hijab/> */}
-
-
-            {/* <nav className="header">
-                <div className="header-left">
-                    <img className="lg_img" src="../images/zah_logo.png" alt="company logo"></img>
-                    <h1 className="brand_name">Zahrah Muslimah Hub </h1>
-                </div>
-                <div className="menu">
-                    {screenWidth > 500? menu : <img className="menu-lg" src={`../images/${menuIcon}`} alt="menu" onClick={menuClick}></img>}
                      
-                </div>
-                
-            </nav>
-            <div className="menu-mobile">
-                {!myMenu.isShown? mobileMenu  : <p style={style}></p>}
-             </div>
-                        
-           
-            */}
-           {/* <h2>hiee{window.innerWidth}</h2> */}
-           
         
         </>
     )
