@@ -15,6 +15,7 @@ import Niqab from "./Niqab"
 import Islamicbook from "./IslamicBook"
 import Bag from "./Bag"
 import Jewelries from "./Jewelries"
+import Shoe from "./Shoe"
 
 export default function App(){
     
@@ -32,9 +33,10 @@ export default function App(){
                 <Route path="/contact" exact component={Contact} />
                 <Route path="/hijabs" exact component={Hijab} />
                 <Route path="/jibabs" exact component={Jilbabs} />
-                <Route path="/niqab" exact component={Niqab} />
+                <Route path="/niqabs" exact component={Niqab} />
                 <Route path="/islamicbook" exact component={Islamicbook} />
-                <Route path="/bag" exact component={Bag} />
+                <Route path="/bags" exact component={Bag} />
+                <Route path="/shoes" exact component={Shoe} />
                 <Route path="/jewelries" exact component={Jewelries} />
     
                 {/* <Route path="/hijab" exact component={Contact} /> */}
