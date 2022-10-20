@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Zahrah/static/css/main.94d5fe4d.css",
+    "main.js": "/Zahrah/static/js/main.c51afe53.js",
+    "static/media/homImg.png": "/Zahrah/static/media/homImg.4faf97c1e76030c519ec.png",
+    "index.html": "/Zahrah/index.html",
+    "main.94d5fe4d.css.map": "/Zahrah/static/css/main.94d5fe4d.css.map",
+    "main.c51afe53.js.map": "/Zahrah/static/js/main.c51afe53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94d5fe4d.css",
+    "static/js/main.c51afe53.js"
+  ]
+}
