@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         style: "",
-        image: "../images/Hijab/hijab1.jpg",
+        image: "../Zahrah/images/Hijab/hijab1.jpg",
         price: "" ,
         color: "blue",
         Sleeve: 2 ,
@@ -13,7 +13,7 @@ export default [
     {
         id: 2,
         style: "",
-        image: "../images/Hijab/hijab2.jpg",
+        image: "../Zahrah/images/Hijab/hijab2.jpg",
         price: "" ,
         color: "red",
         Sleeve: 7 ,
@@ -22,7 +22,7 @@ export default [
     {
         id: 3,
         style: "",
-        image: "../images/Hijab/hijab3.jpg",
+        image: "../Zahrah/images/Hijab/hijab3.jpg",
         price: "" ,
         color: "green",
         Sleeve: 9 ,
@@ -31,7 +31,7 @@ export default [
     {
         id: 4,
         style: "",
-        image: "../images/Hijab/hijab4.jpg",
+        image: "../Zahrah/images/Hijab/hijab4.jpg",
         price: "" ,
         color: "yellow",
         Sleeve: 12,
@@ -40,7 +40,7 @@ export default [
     {
         id: 5,
         style: "",
-        image: "../images/Hijab/hijab5.jpg",
+        image: "../Zahrah/images/Hijab/hijab5.jpg",
         price: "" ,
         color: "yellow",
         Sleeve: 12,
@@ -49,7 +49,7 @@ export default [
     {
         id: 6,
         style: "",
-        image: "../images/Hijab/hijab6.jpg",
+        image: "../Zahrah/images/Hijab/hijab6.jpg",
         price: "" ,
         color: "yellow",
         Sleeve: 12,

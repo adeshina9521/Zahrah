@@ -22,8 +22,6 @@ export default function App(){
         <>
             <Header/>
            
-
-           <Homepage/>
            <Switch>
                 <Route path="/" exact component={Homepage}/>
                 <Route path="/products" exact component={Products} />
