@@ -8,7 +8,7 @@ export default function Homepage(){
         
            <div className="container">
            
-             <video src="../Zahrah/images/clip.mp4" autoPlay={true} loop={true}></video>
+             <video src="../images/clip.mp4" autoPlay={true} loop={true}></video>
              <div className="cont-1">
                 <div className="con-2">
                     <h1 className="brand_name">Zahrah Muslimah Hub </h1> 

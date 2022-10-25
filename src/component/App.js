@@ -14,6 +14,8 @@ import Islamicbook from "./IslamicBook"
 import Bag from "./Bag"
 import Jewelries from "./Jewelries"
 import Shoe from "./Shoe"
+import PageNotFound from "./PageNotFound"
+
 
 export default function App(){
     
@@ -34,6 +36,8 @@ export default function App(){
                 <Route path="/bags" exact component={Bag} />
                 <Route path="/shoes" exact component={Shoe} />
                 <Route path="/jewelries" exact component={Jewelries} />
+
+                <Route component={PageNotFound}/>
     
            </Switch>
                       
