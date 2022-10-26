@@ -7,7 +7,7 @@ export default function MainHeader(props){
         <div>
             <nav className="header">
                 <div className="header-left">
-                    <img className="lg_img" src="../Zahrah/images/zah_logo.png" alt="company logo"></img>
+                    <img className="lg_img" src="../images/zah_logo.png" alt="company logo"></img>
                     <h1 className="brand_name">Zahrah Muslimah Hub </h1>
                 </div>
                 <div className="menu">
