@@ -11,7 +11,7 @@ export default function MainHeader(props){
                     <h1 className="brand_name">Zahrah Muslimah Hub </h1>
                 </div>
                 <div className="menu">
-                    {props.screenWidth > 800? props.menu : <img className="menu-lg" src={`../Zahrah/images/${props.menuIcon}`} alt="menu" onClick={props.menuClick}></img>}
+                    {props.screenWidth > 800? props.menu : <img className="menu-lg" src={`../images/${props.menuIcon}`} alt="menu" onClick={props.menuClick}></img>}
                      
                 </div>
                 

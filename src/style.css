@@ -93,9 +93,10 @@ p{
     flex-grow: 1;
 }
 .brand_name{
-    font-size: 2em;
+    font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
     color: #44007E;
+    /* font-weight: 900; */
 }
 .lg_img{
     height: 2em;
@@ -105,7 +106,7 @@ p{
 .menu{
     align-content: flex-end;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 700;
 }
 .menu-lg, .menu-sm{
     width: 3rem;
@@ -126,15 +127,12 @@ main{
 a{
     text-decoration: none;
 }
-/* @media only screen and (max-width: 300px){
-    .brand_name{
-        font-size: 2000px;
-    }
-} */
+
 @media only screen and (max-width: 600px) {
-    .brand_name{
-        font-size: 1em;
-        
+    .brand_name2{
+        font-size: 2em;
+        color: #44007E; 
+        font-weight: 800;
     }
     video {
         display: none;
@@ -144,8 +142,9 @@ a{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 100vh;
-        min-width: 100vw;
+        /* min-height: 100vh;
+        min-width: 100vw; */
+        background-color: rgba(193, 126, 206, 0.301);
 
     }
     .lg_img{
@@ -291,6 +290,7 @@ a:hover{
     background-color: rgba(193, 126, 206, 0.301);
     position: absolute;
     top: 0px;
+    
   
     /* overflow: hidden; */
 }
@@ -300,16 +300,19 @@ a:hover{
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    font-size: clamp(24pix, 10vw, 48px);
 }
 body{
     overflow-x: hidden;
 }
 .product{
-    color: #3a2150;
+    color: #d3c2e4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     font-size: 1.2em;
     padding: 1.3em;
+    width: 80vw;
+    
 
 }
 .brief{
