@@ -70,7 +70,7 @@ p{
 /* Zahrah */
 .header{
     background-color: #f1e7e7;
-    height: 7vh;
+    height: 8vh;
     width: 100vw;
     display: flex;
 
@@ -78,10 +78,65 @@ p{
     align-items: center;
     padding: 1rem;
     /* flex-wrap: nowrap; */
-    
+   
+
     box-shadow: 0 1rem 1rem rgba(142, 54, 194, 0.295);
     border-top: 1px solid #44007E;
  
+}
+.card-ft{
+    background-color: #f1e7e7;
+    /* height: 8vh; */
+    width: 100vw;
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em;
+    /* flex-wrap: nowrap; */
+   
+
+    box-shadow: 0 1rem 1rem rgba(142, 54, 194, 0.295);
+    border-top: 1px solid #44007E;
+ 
+}
+.subcribe{
+    flex-grow: 1;
+}
+
+.sub{
+    color: #44007E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+   
+    font-size:1.2em;
+}
+.newsletter{
+    width: 45vw;
+    border-color: #44007E;
+    height: 35px;
+}
+.social{
+    background-color: #f1e7e7;
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    /* flex-wrap: nowrap; */
+    gap: 2vw;
+
+    /* box-shadow: 0 1rem 1rem rgba(142, 54, 194, 0.295);
+    border-top: 1px solid #44007E; */
+ 
+}
+.ft_logo{
+    height: 20px;
+    width: 20px;
+   
+
 }
 
 .header-left{
@@ -194,10 +249,18 @@ a{
    .mob-dsk{
        font-size: 1.2em;
    }
+   .card-ft{
+       display: inline;
+   }
+   .social{
+       justify-content: center;
+   }
    /* a{
        font-size: 3em;
    } */
-   
+   .newsletter{
+       width: 100vw;
+   }
 }
 
 @media only screen and (min-width: 600px) {
