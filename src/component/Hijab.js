@@ -10,7 +10,7 @@ export default function Hijab(){
             return(
                
                     <Card
-                        key={info.id}
+                        key={hijab.id}
                         {...info}
                     />
                 

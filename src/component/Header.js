@@ -33,7 +33,7 @@ export default function Header(){
     const mobileMenu = myMenu.menu.map(
         function menu(menu){
             return (
-                <ul key={menu} className="mob-dsk">
+                <ul key={myMenu} className="mob-dsk">
                     <ol className="mob-lst ">
                         {menu}
                     </ol><br/>
