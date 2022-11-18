@@ -15,7 +15,7 @@ import Bag from "./Bag"
 import Jewelries from "./Jewelries"
 import Shoe from "./Shoe"
 import PageNotFound from "./PageNotFound"
-import Footer from "./Footer"
+// import Footer from "./Footer"
 
 
 export default function App(){
@@ -23,7 +23,7 @@ export default function App(){
     return (
 
         <>
-            <Header/>
+            {/* <Header/> */}
            
            <Switch>
                 <Route path="/" exact component={Homepage}/>
@@ -42,7 +42,7 @@ export default function App(){
     
            </Switch>
 
-           <Footer/>           
+           {/* <Footer/>            */}
         </>
 
     )

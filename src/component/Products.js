@@ -7,8 +7,9 @@ export default function Products(){
 
     return(
         <>
-            <Hijab/>
             
+            <Hijab/>
+          
         </>
     )
 }

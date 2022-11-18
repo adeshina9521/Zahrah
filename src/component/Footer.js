@@ -4,15 +4,18 @@ import React from "react"
 
 export default function Footer(){
 
-    const [email, setEmail] = React.useState(" ")
+    const [formData, setFormData] = React.useState({email: " "})
     
     function handleChange(event){
-        setEmail(function(prevEmail){
-            return{[event.target.name]: event.target.value
-            }
+        setFormData(function(prevFormData){
+            return {...prevFormData,
+                    [event.target.name] : event.target.value
+                }
         }
             )
     }
+
+    
     return(
         <div className="card-ft">
             <form className="subcribe">
@@ -22,7 +25,7 @@ export default function Footer(){
                     type="email"
                     name="email"
                     onChange={handleChange}
-                    value={email}
+                    value={formData.email}
                     placeholder="email">
                                      
                 </input>

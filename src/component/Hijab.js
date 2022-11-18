@@ -2,7 +2,8 @@ import React from "react";
 import Card from "./Card";
 import HijabData from "./Product/HijabData"
 import Product from "./Product"
-
+import Header from "./Header"
+import Footer from  "./Footer"
 
 export default function Hijab(){
     const hijabElement = HijabData.map(
@@ -10,7 +11,7 @@ export default function Hijab(){
             return(
                
                     <Card
-                        key={hijab.id}
+                        key={info.id}
                         {...info}
                     />
                 
@@ -20,10 +21,13 @@ export default function Hijab(){
     )
     return(
         <>
+            <Header/>
             <Product/>
             <div className="cds">
                 {hijabElement}       
             </div>
+
+            <Footer/>
         </>
     )
 }

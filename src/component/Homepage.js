@@ -1,11 +1,12 @@
 import React from "react";
-
+import Header from "./Header"
+import Footer from  "./Footer"
 
 export default function Homepage(){
 
     return(
         <>
-        
+            <Header/>
            <div className="container">
              <video src="../images/clip.mp4" autoPlay={true} loop={true}></video>
              <div className="cont-1">
@@ -15,7 +16,8 @@ export default function Homepage(){
                     <p className="brief">... modesty, beauty is what we care for.</p>
                 </div>
             </div>
-         </div>   
+         </div>  
+            <Footer/> 
         </>
     )
 }
